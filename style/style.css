@@ -1,0 +1,266 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+}
+
+.header{
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    
+}
+.header-text{
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    margin-left: 845px;
+    margin-top: 216px;
+    color: #151414;
+}
+.header-des{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    width: 494px;
+    height: 80px;
+    margin-left: 876px;
+    margin-top: 24px;
+    color:#444343;
+}
+.btn-primary{
+    margin-top: 24px;
+    height: 64px;
+    width: 160px;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 0;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    margin-left: 1210px;
+    margin-bottom: 166px;
+}
+.body1{
+    display: flex;
+}
+/* Ellipse 2 */
+/*.person-back{
+     Union
+
+
+width: 569px;
+height: 723.3px;
+left: 206px;
+top: 939px;
+
+background: #F15B22;
+color: #F15B22;
+text-align: right;
+width: 527.93px;
+height: 527.93px;
+left: 229px;
+top: 1134.37px;
+background: rgba(241, 91, 34, 0.2);
+}
+ */
+.person-back{
+    background-image:rgba(241, 91, 34, 0.2);
+    width: 569px;
+height: 723.3px;
+margin-left: 206px;
+margin-top: 131px;
+margin-right: 87px;
+}
+.body-container{
+    text-align: left;
+    width: 569px;
+    height: 723.3px;
+    margin-left: 87px;
+    margin-top: 370px;
+    margin-right: 450px;
+}
+.body-title{
+width: 288px;
+height: 94px;
+left: 862px;
+top: 1178px;
+font-weight: 700;
+font-size: 40px;
+
+/* Dark 01 */
+
+color: #151414;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0;
+    width: 349px;
+height: 162px;
+    
+}
+li{
+    margin-bottom: 8px;
+}
+.plan{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 250px;
+}
+.plan-title{
+    justify-content: center;
+text-align: center;
+font-weight: 700;
+font-size: 40px;
+margin-top: 4px;
+margin-bottom: 60px;
+/* identical to box height */
+/* Dark 01 */
+color: #151414;
+}
+.items{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 300px;
+}
+.item{
+    
+    margin-left: 50px;
+    width: 220px;
+    height: 80px;
+}
+.icon-title{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    width: 270px;
+    height: 32px;
+    color: #151414;
+}
+.item-des{
+    margin-top: 15px;
+font-weight: 500;
+font-size: 25px;
+text-align: center;
+/* Dark 03 */
+color: #737272;
+}
+.positive{
+    justify-content: center;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) ), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+    background-position: 100% 100%;
+    border-radius: 8px;
+    margin: auto;
+}
+.positive-text{
+width: 459px;
+height: 182px;
+padding-top: 15px;
+padding-left: 60px;
+padding-bottom: 60px;
+
+
+}
+.pos-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    width: 459px;
+    height: 84px;
+}
+.contact{
+    margin-top: 24px;
+    width: 160px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border: 5px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.foot{
+    margin-top: 130px;
+    background: #151414;
+    display: flex;
+}
+.div1{
+padding-right: 331px;
+padding-top: 65px;
+padding-bottom: 130px;
+}
+.title1{
+    padding-top: 0;
+    font-weight: 700;
+    font-size: 45px;
+    /* identical to box height */
+    color: #F8F8F8;
+}
+.title-text{
+    width: 475px;
+    height: 78px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+}
+.lower-part{
+    width: 186px;
+height: 146px;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+gap: 17px;
+}
+.icons{
+    padding-top: 16px;
+    display: flex;
+    gap: 17px;
+}
+.subscribe{
+    padding-top: 125px;
+    padding-bottom: 143px;
+    width: 325px;
+height: 204px;
+}
+.sub-title{
+    width: 123px;
+height: 29px;
+font-weight: 600;
+font-size: 25px;
+
+color: #FFFFFF;
+}
+input{
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #FFFFFF;
+    border-radius: 8px;
+}
+#email{
+    width: 300px;
+height: 50px;
+}
+.subs{
+    margin-top: 24px;
+    width: 170px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #F15B22;
+    border: 0px;
+    padding: 20px 20px;
+    background: #FFFFFF;
+    border-radius: 8px;
+
+}
