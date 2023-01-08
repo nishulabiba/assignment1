@@ -49,6 +49,8 @@
 }
 .body1{
     display: flex;
+    justify-content: center;
+   
 }
 /* Ellipse 2 */
 /*.person-back{
@@ -71,19 +73,16 @@ background: rgba(241, 91, 34, 0.2);
 }
  */
 .person-back{
-    background-image:rgba(241, 91, 34, 0.2);
-    width: 569px;
-height: 723.3px;
-margin-left: 206px;
-margin-top: 131px;
-margin-right: 87px;
+    margin-top: 130px;
+    margin-left: 500px;
+margin-right: 60px;
 }
 .body-container{
+    margin-top: 370px;
     text-align: left;
     width: 569px;
     height: 723.3px;
     margin-left: 87px;
-    margin-top: 370px;
     margin-right: 450px;
 }
 .body-title{
@@ -97,6 +96,10 @@ font-size: 40px;
 /* Dark 01 */
 
 color: #151414;
+}
+.body-text{
+    height: 104px;
+    width: 375px;
 }
 ul{
     list-style-type: none;
